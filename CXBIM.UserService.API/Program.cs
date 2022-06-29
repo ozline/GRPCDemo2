@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using CXBIM.UserService.Service.Models;
 using CXBIM.UserService.API.GrpcService;
+using CXBIM.Core.Consul;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,16 +11,26 @@ builder.Services.AddControllers();
 
 builder.Services.AddDbContext<UserContext>(opt =>
     opt.UseInMemoryDatabase("Users"));
-builder.Services.AddHealthChecks();
-//builder.Services.Configure<ConsulServiceOptions> //健康监测内容？
 
+//Consul
+builder.Services.AddHealthChecks();
+builder.Configuration.AddJsonFile("consulsetting.json", optional: false, reloadOnChange: true);
+builder.Services.Configure<ConsulServiceOptions>(new
+    ConfigurationBuilder()
+    .AddJsonFile("consulsetting.json").Build()
+    );
+
+
+//ocelet
+//builder.Services
+
+
+//gRPC
 builder.Services.AddGrpc(options =>
 {
     options.EnableDetailedErrors = true; //打开错误详情？
 });
 
-//builder.Services.AddGrpcClient<>
-//builder.Services.AddGrpcClient<>
 AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 
 
@@ -29,8 +40,7 @@ AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport
 
 
 //加载配置文件
-builder.Configuration.AddJsonFile("consulsetting.json", optional: false, reloadOnChange: true);
-builder.Configuration.AddJsonFile("ocelotsetting.json", optional: false, reloadOnChange: true);
+//builder.Configuration.AddJsonFile("ocelotsetting.json", optional: false, reloadOnChange: true);c
 
 var app = builder.Build();
 
@@ -38,6 +48,8 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment()) //if dev
 {
     app.UseDeveloperExceptionPage();
+    //app.UseSwagger();
+    //app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
@@ -45,6 +57,9 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapGrpcService<GreeterService>();
+
+//app.UseHealthChecks()
+app.UseConsul(builder.Configuration);
 
 app.MapControllers();
 

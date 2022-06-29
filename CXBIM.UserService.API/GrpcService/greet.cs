@@ -2,7 +2,7 @@
 using Grpc.Core;
 namespace CXBIM.UserService.API.GrpcService
 {
-    public class GreeterService : Greeter.GreeterClient
+    public class GreeterService : Greeter.GreeterBase
     {
         private readonly ILogger<GreeterService> _logger;
         public GreeterService(ILogger<GreeterService> logger)
@@ -11,7 +11,7 @@ namespace CXBIM.UserService.API.GrpcService
         }
 
 
-        public Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
+        public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
         {
             return Task.FromResult(new HelloReply
             {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DOvza5IhEuvHULWQiUw13RY9gfGt974zmvPlTy3Xq68=",
+  "Hash": "gp4Knlez5Acz/aDReYMvEcHcJ39nohOvD71OcquUANU=",
   "Source": "CXBIM.UserService.API",
   "BasePath": "_content/CXBIM.UserService.API",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "CXBIM.Gateway",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier"
     }
   ],

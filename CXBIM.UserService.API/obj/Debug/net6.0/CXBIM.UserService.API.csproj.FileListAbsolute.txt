@@ -77,3 +77,5 @@
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/Debug/net6.0/CXBIM.UserService.API.pdb
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/Debug/net6.0/CXBIM.UserService.API.genruntimeconfig.cache
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/Debug/net6.0/ref/CXBIM.UserService.API.dll
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Core.dll
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Core.pdb

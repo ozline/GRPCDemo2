@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "CXBIM.Gateway/1.0.0": {
         "dependencies": {
+          "CXBIM.Core": "1.0.0",
           "Consul": "1.6.10.6",
           "Ocelot": "18.0.0",
           "Ocelot.Provider.Consul": "18.0.0",
@@ -177,7 +178,15 @@
           }
         }
       },
-      "System.Diagnostics.DiagnosticSource/4.7.1": {}
+      "System.Diagnostics.DiagnosticSource/4.7.1": {},
+      "CXBIM.Core/1.0.0": {
+        "dependencies": {
+          "Consul": "1.6.10.6"
+        },
+        "runtime": {
+          "CXBIM.Core.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -318,6 +327,11 @@
       "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
       "path": "system.diagnostics.diagnosticsource/4.7.1",
       "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    },
+    "CXBIM.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

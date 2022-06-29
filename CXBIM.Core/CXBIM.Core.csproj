@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Consul\" />
+    <None Remove="Consul" />
+    <None Remove="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Consul\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Consul" Version="1.6.10.6" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.8" />
+  </ItemGroup>
+</Project>

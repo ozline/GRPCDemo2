@@ -3,16 +3,16 @@
     {
       "UseServiceDiscovery": true,
       // 下游（服务提供方） 服务路由模板
-      "DownstreamPathTemplate": "/api/{url}",
+      "DownstreamPathTemplate": "/{url}",
       // URI方案，http、https
       "DownstreamScheme": "http",
       // 服务地址和端口，若是集群就设置多个
-      //"DownstreamHostAndPorts": [
-      //  {
-      //    "Host": "127.0.0.1",
-      //    "Port": 8655
-      //  }
-      //],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8433
+        }
+      ],
       "ServiceName": "CXMP_UserService",
       // 允许的HTTP请求方法，可以多个
       "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
@@ -30,7 +30,7 @@
       }
     }
   ],
-  // 全局配置，此节点的配置会覆盖Routes，可以在这里设置一些通用的配置
+  //全局配置，此节点的配置会覆盖Routes，可以在这里设置一些通用的配置
   "GlobalConfiguration": {
     "ServiceDiscoveryProvider": {
       "Scheme": "http",
@@ -38,6 +38,6 @@
       "Port": 8500,
       "Type": "Consul"
     }
-    //"ReRouteIsCaseSensitive": false //路由是否区分大小写
+    "ReRouteIsCaseSensitive": false //路由是否区分大小写
   }
 }

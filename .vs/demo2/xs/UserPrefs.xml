@@ -1,10 +1,8 @@
 ﻿<Properties StartupConfiguration="{74ADA0DA-EFB4-48D5-88CC-24FF21CA83FD}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Microservice.Instance.CXBIM.UserService.CXBIM.UserService.Service FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Microservice.Instance.CXBIM.UserService.CXBIM.UserService.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="CXBIM.UserService.API/CXBIM.UserService.Service/GrpcService/greet.cs">
     <Files>
       <File FileName="CXBIM.UserService.API/CXBIM.UserService.Service/Models/UserService.cs" Line="19" Column="6" />
@@ -49,6 +47,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Microservice.Instance.CXBIM.UserService.CXBIM.UserService.Service FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CXBIM.Core FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
 </Properties>

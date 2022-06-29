@@ -28,6 +28,9 @@
     <ProjectReference Include="..\CXBIM.Gateway\CXBIM.Gateway.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\CXBIM.Core\CXBIM.Core.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Remove="Controllers\" />
@@ -41,6 +44,7 @@
     <None Remove="GrpcService\" />
     <None Remove="Grpc.AspNetCore" />
     <None Remove="Protos\greet.proto" />
+    <None Remove="Ocelot" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -62,5 +66,10 @@
     <Protobuf Include="Protos\greet.proto" GrpcServices="ClientAndServer">
       <Link>Protos\greet.proto</Link>
     </Protobuf>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Condition="'$(ExcludeConfigFilesFromBuildOutput)'!='true'" Update="consulsetting.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>

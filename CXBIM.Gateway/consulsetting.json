@@ -1,0 +1,8 @@
+﻿{
+  //consul 服务地址
+  "ConsulAddress": "http://127.0.0.1:8500",
+  //启动的服务名称
+  "ServiceName": "CXBIM_Gateway",
+  //心跳检查
+  "HealthCheck": "/Health"
+}

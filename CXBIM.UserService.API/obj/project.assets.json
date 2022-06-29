@@ -792,10 +792,27 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "CXBIM.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Consul": "1.6.10.6"
+        },
+        "compile": {
+          "bin/placeholder/CXBIM.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CXBIM.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "CXBIM.Gateway/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "CXBIM.Core": "1.0.0",
           "Consul": "1.6.10.6",
           "Ocelot": "18.0.0",
           "Ocelot.Provider.Consul": "18.0.0",
@@ -2112,6 +2129,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CXBIM.Core/1.0.0": {
+      "type": "project",
+      "path": "../CXBIM.Core/CXBIM.Core.csproj",
+      "msbuildProject": "../CXBIM.Core/CXBIM.Core.csproj"
+    },
     "CXBIM.Gateway/1.0.0": {
       "type": "project",
       "path": "../CXBIM.Gateway/CXBIM.Gateway.csproj",
@@ -2125,6 +2147,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CXBIM.Core >= 1.0.0",
       "CXBIM.Gateway >= 1.0.0",
       "CXBIM.Protos >= 1.0.0",
       "Google.Protobuf >= 3.21.1",
@@ -2163,6 +2186,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Core/CXBIM.Core.csproj": {
+              "projectPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Core/CXBIM.Core.csproj"
+            },
             "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/CXBIM.Gateway.csproj": {
               "projectPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/CXBIM.Gateway.csproj"
             },

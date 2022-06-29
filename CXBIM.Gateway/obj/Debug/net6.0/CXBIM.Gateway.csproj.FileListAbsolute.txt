@@ -1,6 +1,7 @@
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/appsettings.Development.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/appsettings.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/CXBIM.Gateway
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/ocelotsetting.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/CXBIM.Gateway.deps.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/CXBIM.Gateway.runtimeconfig.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/CXBIM.Gateway.dll
@@ -35,3 +36,6 @@
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/obj/Debug/net6.0/CXBIM.Gateway.pdb
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/obj/Debug/net6.0/CXBIM.Gateway.genruntimeconfig.cache
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/obj/Debug/net6.0/ref/CXBIM.Gateway.dll
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/consulsetting.json
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/CXBIM.Core.dll
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/bin/Debug/net6.0/CXBIM.Core.pdb
