@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NvL8v/N0IQzrYo7V2FmmVnBgIM4VEToFq9FgwHkPK4I=",
+  "Source": "CXBIM.Gateway",
+  "BasePath": "_content/CXBIM.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.API.csproj": {}
+  },
+  "projects": {
+    "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/CXBIM.Gateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/CXBIM.Gateway.csproj",
+        "projectName": "CXBIM.Gateway",
+        "projectPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/CXBIM.Gateway.csproj",
+        "packagesPath": "/Users/ozliinex/.nuget/packages/",
+        "outputPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozliinex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Consul": {
+              "target": "Package",
+              "version": "[1.6.10.6, )"
+            },
+            "Ocelot": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Ocelot.Provider.Consul": {
+              "target": "Package",
+              "version": "[18.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/CXBIM.Protos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/CXBIM.Protos.csproj",
+        "projectName": "CXBIM.Protos",
+        "projectPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/CXBIM.Protos.csproj",
+        "packagesPath": "/Users/ozliinex/.nuget/packages/",
+        "outputPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozliinex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.21.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.21.1, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.46.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.47.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.API.csproj",
+        "projectName": "CXBIM.UserService.API",
+        "projectPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.API.csproj",
+        "packagesPath": "/Users/ozliinex/.nuget/packages/",
+        "outputPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozliinex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/CXBIM.Gateway.csproj": {
+                "projectPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/CXBIM.Gateway.csproj"
+              },
+              "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/CXBIM.Protos.csproj": {
+                "projectPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/CXBIM.Protos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.21.1, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.21.1, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.46.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.47.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

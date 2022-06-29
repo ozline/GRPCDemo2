@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "XY7L7qYK3iz/5HnvHGQUpW1OfCtmIDczfL+kJXUH1pJPIdNKZ+PW5t1qYpRNmAu5FB3T0Hz9YVBLnTNolnBV+g==",
+  "success": true,
+  "projectFilePath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.Service/CXBIM.UserService.Service.csproj",
+  "expectedPackageFiles": [
+    "/Users/ozliinex/.nuget/packages/grpc.core/2.46.3/grpc.core.2.46.3.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/grpc.core.api/2.46.3/grpc.core.api.2.46.3.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.entityframeworkcore/6.0.6/microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.6/microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.6/microsoft.entityframeworkcore.analyzers.6.0.6.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

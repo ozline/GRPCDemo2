@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.Service/CXBIM.UserService.Service.csproj": {}
+  },
+  "projects": {
+    "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.Service/CXBIM.UserService.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.Service/CXBIM.UserService.Service.csproj",
+        "projectName": "CXBIM.UserService.Service",
+        "projectPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.Service/CXBIM.UserService.Service.csproj",
+        "packagesPath": "/Users/ozliinex/.nuget/packages/",
+        "outputPath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/CXBIM.UserService.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ozliinex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.46.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/bin/Debug/net6.0/CXBIM.Protos.deps.json
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/bin/Debug/net6.0/CXBIM.Protos.dll
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/bin/Debug/net6.0/CXBIM.Protos.pdb
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/Debug/net6.0/CXBIM.Protos.csproj.AssemblyReference.cache
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/Debug/net6.0/CXBIM.Protos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/Debug/net6.0/CXBIM.Protos.AssemblyInfoInputs.cache
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/Debug/net6.0/CXBIM.Protos.AssemblyInfo.cs
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/Debug/net6.0/CXBIM.Protos.csproj.CoreCompileInputs.cache
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/Debug/net6.0/CXBIM.Protos.dll
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/Debug/net6.0/refint/CXBIM.Protos.dll
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/Debug/net6.0/CXBIM.Protos.pdb
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Protos/obj/Debug/net6.0/ref/CXBIM.Protos.dll

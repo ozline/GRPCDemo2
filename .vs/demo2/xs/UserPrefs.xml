@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{74ADA0DA-EFB4-48D5-88CC-24FF21CA83FD}|Default">
+  <MonoDevelop.Ide.ItemProperties.Microservice.Instance.CXBIM.UserService.CXBIM.UserService.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CXBIM.UserService.API/CXBIM.UserService.Service/GrpcService/greet.cs">
+    <Files>
+      <File FileName="CXBIM.UserService.API/CXBIM.UserService.Service/Models/UserService.cs" Line="19" Column="6" />
+      <File FileName="CXBIM.UserService.API/Program.cs" Line="28" Column="20" />
+      <File FileName="CXBIM.UserService.API/CXBIM.UserService.Service/GrpcService/greet.cs" Line="17" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="demo2" expanded="True">
+            <Node name="Microservice.Instance" expanded="True">
+              <Node name="CXBIM.UserService" expanded="True">
+                <Node name="CXBIM.UserService.API" expanded="True">
+                  <Node name="Dependencies" expanded="True">
+                    <Node name="PackageDependencies" expanded="True" />
+                    <Node name="ProjectDependencies" expanded="True" />
+                  </Node>
+                  <Node name="CXBIM.UserService.Service" expanded="True">
+                    <Node name="GrpcService" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="CXBIM.UserService.Service" expanded="True">
+                  <Node name="GrpcService" expanded="True" />
+                  <Node name="Models" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="CXBIM.Gateway" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="CXBIM.Protos" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Microservice.Instance.CXBIM.UserService.CXBIM.UserService.Service FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

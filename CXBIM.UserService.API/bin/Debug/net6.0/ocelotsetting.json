@@ -1,0 +1,43 @@
+﻿{
+  "Routes": [
+    {
+      "UseServiceDiscovery": true,
+      // 下游（服务提供方） 服务路由模板
+      "DownstreamPathTemplate": "/api/{url}",
+      // URI方案，http、https
+      "DownstreamScheme": "http",
+      // 服务地址和端口，若是集群就设置多个
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 8655
+      //  }
+      //],
+      "ServiceName": "CXMP_UserService",
+      // 允许的HTTP请求方法，可以多个
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      // 上游（客户端、服务器消费方）请求路由模板
+      "UpstreamPathTemplate": "/userservice/{url}",
+      // 负载均衡，只有上面匹配了集群，才有效
+      /*
+       负载均衡算法，总共三种类型。
+        LeastConnection：最小链接，将请求发往最空闲的那个服务器
+        RoundRobin：轮询，轮流发送
+        NoLoadBalance：无负载均衡，总是发往第一个请求或者是服务发现
+        */
+      "LoadBalanceOptions": {
+        "Type": "RoundRobin" //轮询
+      }
+    }
+  ],
+  // 全局配置，此节点的配置会覆盖Routes，可以在这里设置一些通用的配置
+  "GlobalConfiguration": {
+    "ServiceDiscoveryProvider": {
+      "Scheme": "http",
+      "Host": "127.0.0.1",
+      "Port": 8500,
+      "Type": "Consul"
+    }
+    //"ReRouteIsCaseSensitive": false //路由是否区分大小写
+  }
+}
