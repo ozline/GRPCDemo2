@@ -3,6 +3,14 @@ using CXBIM.UserService.Service.Models;
 using CXBIM.UserService.API.GrpcService;
 using CXBIM.Core.Consul;
 
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Options;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Http.Features;
+using Microsoft.AspNetCore.Hosting.Server.Features;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -59,6 +67,7 @@ app.UseAuthorization();
 app.MapGrpcService<GreeterService>();
 
 //app.UseHealthChecks()
+app.UseHealthChecks("/Health");
 app.UseConsul(builder.Configuration);
 
 app.MapControllers();

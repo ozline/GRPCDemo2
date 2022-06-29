@@ -61,8 +61,8 @@ public static class ConsulRegistrationExtensions
         //    uri = new Uri(address);
         //}
 
-        //uri = new Uri(configuration["urls"] ?? "https://localhost:44309");
-        uri = new Uri("http://localhost:8433");
+        uri = new Uri(configuration["urls"] ?? "https://localhost:44309");
+        //uri = new Uri("http://localhost:8433");
         Console.WriteLine("URI:"+uri);
         // 节点服务注册对象
         var registration = new AgentServiceRegistration()
