@@ -10,9 +10,11 @@
     <None Remove="Consul\" />
     <None Remove="Consul" />
     <None Remove="Microsoft.AspNetCore.App" />
+    <None Remove="IdentityService\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Consul\" />
+    <Folder Include="IdentityService\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Consul" Version="1.6.10.6" />

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "wp1Q9UIzbg/EyiSFE72xMvEN81BQcdvzp/NP1SL3/z/E0/KVVVi5bJrIDyHsJj0ckW3QVyX33ej759naEhdG4w==",
+  "success": true,
+  "projectFilePath": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.AuthorizationService/CXBIM.AuthorizationService.csproj",
+  "expectedPackageFiles": [
+    "/Users/ozliinex/.nuget/packages/consul/1.6.10.6/consul.1.6.10.6.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/identitymodel/4.4.0/identitymodel.4.4.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/identityserver4/4.1.2/identityserver4.4.1.2.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/identityserver4.storage/4.1.2/identityserver4.storage.4.1.2.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/3.1.0/microsoft.aspnetcore.authentication.openidconnect.3.1.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.identitymodel.jsonwebtokens/5.6.0/microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.identitymodel.logging/5.6.0/microsoft.identitymodel.logging.5.6.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.identitymodel.protocols/5.6.0/microsoft.identitymodel.protocols.5.6.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/5.6.0/microsoft.identitymodel.protocols.openidconnect.5.6.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.identitymodel.tokens/5.6.0/microsoft.identitymodel.tokens.5.6.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/system.identitymodel.tokens.jwt/5.6.0/system.identitymodel.tokens.jwt.5.6.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/Users/ozliinex/.nuget/packages/system.text.encodings.web/4.7.0/system.text.encodings.web.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

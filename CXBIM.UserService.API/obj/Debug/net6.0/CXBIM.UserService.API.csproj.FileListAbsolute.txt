@@ -3,11 +3,12 @@
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Gateway
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/appsettings.Development.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/appsettings.json
-/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/consulsetting.json
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.UserService.Service/bin/Debug/net6.0/CXBIM.UserService.Service.deps.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.UserService.Service/obj/CXBIM.UserService.Service.csproj.nuget.dgspec.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.UserService.Service/obj/project.assets.json
-/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/ocelotsetting.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.UserService.API
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/ocelotsetting.json
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/consulsetting.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.UserService.API.deps.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.UserService.API.runtimeconfig.json
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.UserService.API.dll
@@ -59,10 +60,12 @@
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Core.dll
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Gateway.dll
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Protos.dll
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Protos.pdb
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Gateway.pdb
+/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Core.pdb
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/Debug/net6.0/CXBIM.UserService.API.csproj.AssemblyReference.cache
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/Debug/net6.0/CXBIM.UserService.API.GeneratedMSBuildEditorConfig.editorconfig
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/Debug/net6.0/CXBIM.UserService.API.csproj.CoreCompileInputs.cache
@@ -77,5 +80,3 @@
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/Debug/net6.0/CXBIM.UserService.API.pdb
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/Debug/net6.0/CXBIM.UserService.API.genruntimeconfig.cache
 /Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/obj/Debug/net6.0/ref/CXBIM.UserService.API.dll
-/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Core.dll
-/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.UserService.API/bin/Debug/net6.0/CXBIM.Core.pdb

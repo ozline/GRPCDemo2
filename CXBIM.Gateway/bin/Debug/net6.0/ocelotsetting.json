@@ -3,7 +3,7 @@
     {
       "UseServiceDiscovery": true,
       // 下游（服务提供方） 服务路由模板
-      "DownstreamPathTemplate": "/{url}",
+      "DownstreamPathTemplate": "/api/{url}",
       // URI方案，http、https
       "DownstreamScheme": "http",
       // 服务地址和端口，若是集群就设置多个
@@ -37,7 +37,7 @@
       "Host": "127.0.0.1",
       "Port": 8500,
       "Type": "Consul"
-    },
-    "ReRouteIsCaseSensitive": false //路由是否区分大小写
+    }
+    //"ReRouteIsCaseSensitive": false //路由是否区分大小写
   }
 }

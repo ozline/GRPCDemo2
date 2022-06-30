@@ -95,3 +95,24 @@ public static class ConsulRegistrationExtensions
         return app;
     }
 }
+
+public static class ConsulChannelExtensions
+{
+    /// <summary>
+    /// 获取Consul服务地址
+    /// </summary>
+    /// <param name="consulAddr"></param>
+    /// <param name="serverName"></param>
+    /// <returns></returns>
+    public static string? GetConsuleAddress(string consulAddr, string serverName)
+    {
+        using var consulClient = new ConsulClient(a => a.Address = new Uri(consulAddr));
+        var services = consulClient.Catalog.Service(serverName).Result.Response;
+        if (services != null && services.Any())
+        {
+            var service = services[0];
+            return $"http://{service.ServiceAddress}:{service.ServicePort}";
+        }
+        return null;
+    }
+}

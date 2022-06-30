@@ -1,5 +1,6 @@
 ﻿using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Ocelot.Provider.Consul;
 using CXBIM.Core.Consul;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,7 +23,7 @@ builder.Services.Configure<ConsulServiceOptions>(new
 
 //Ocelot
 builder.Configuration.AddJsonFile("ocelotsetting.json", optional: false, reloadOnChange: true);
-builder.Services.AddOcelot(builder.Configuration); //注入中间件
+builder.Services.AddOcelot(builder.Configuration).AddConsul().AddConfigStoredInConsul(); //注入中间件
 
 
 
@@ -51,7 +52,7 @@ app.UseHealthChecks("/Health");
 app.UseConsul(builder.Configuration);
 
 //Ocelot
-//app.UseOcelot().Wait();
+app.UseOcelot().Wait();
 
 app.Run();
 

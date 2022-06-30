@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "gp4Knlez5Acz/aDReYMvEcHcJ39nohOvD71OcquUANU=",
+  "Source": "CXBIM.UserService.API",
+  "BasePath": "_content/CXBIM.UserService.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/ozliinex/Desktop/dotnet/demo2/CXBIM.Gateway/CXBIM.Gateway.csproj",
+      "Version": 2,
+      "Source": "CXBIM.Gateway",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
