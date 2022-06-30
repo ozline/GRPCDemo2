@@ -13,7 +13,6 @@ builder.Services.AddSwaggerGen();
 
 
 //Consul
-//Consul
 builder.Services.AddHealthChecks();
 builder.Configuration.AddJsonFile("consulsetting.json", optional: false, reloadOnChange: true);
 builder.Services.Configure<ConsulServiceOptions>(new
@@ -47,8 +46,12 @@ app.UseAuthorization();
 app.MapControllers();
 
 
+//Consul
+app.UseHealthChecks("/Health");
 app.UseConsul(builder.Configuration);
-app.UseOcelot().Wait();
+
+//Ocelot
+//app.UseOcelot().Wait();
 
 app.Run();
 

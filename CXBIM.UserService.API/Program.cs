@@ -3,20 +3,11 @@ using CXBIM.UserService.Service.Models;
 using CXBIM.UserService.API.GrpcService;
 using CXBIM.Core.Consul;
 
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Options;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Http.Features;
-using Microsoft.AspNetCore.Hosting.Server.Features;
-
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
 
 builder.Services.AddControllers();
 
+//使用内存数据库
 builder.Services.AddDbContext<UserContext>(opt =>
     opt.UseInMemoryDatabase("Users"));
 
@@ -28,11 +19,6 @@ builder.Services.Configure<ConsulServiceOptions>(new
     .AddJsonFile("consulsetting.json").Build()
     );
 
-
-//ocelet
-//builder.Services
-
-
 //gRPC
 builder.Services.AddGrpc(options =>
 {
@@ -41,23 +27,12 @@ builder.Services.AddGrpc(options =>
 
 AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 
-
-
-//builder.Services.
-
-
-
-//加载配置文件
-//builder.Configuration.AddJsonFile("ocelotsetting.json", optional: false, reloadOnChange: true);c
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment()) //if dev
 {
     app.UseDeveloperExceptionPage();
-    //app.UseSwagger();
-    //app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
@@ -66,7 +41,7 @@ app.UseAuthorization();
 
 app.MapGrpcService<GreeterService>();
 
-//app.UseHealthChecks()
+//Consul
 app.UseHealthChecks("/Health");
 app.UseConsul(builder.Configuration);
 

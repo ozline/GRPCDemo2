@@ -17,6 +17,7 @@
     <None Remove="Consul" />
     <None Remove="Ocelot" />
     <None Remove="Ocelot.Provider.Consul" />
+    <None Remove="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="ocelotsetting.json" />
@@ -40,5 +41,8 @@
     <ProjectReference Include="..\CXBIM.Core\CXBIM.Core.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 </Project>

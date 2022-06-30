@@ -84,6 +84,7 @@ public static class ConsulRegistrationExtensions
                 TLSSkipVerify = true,// 禁用https检查
             }
         };
+        Console.WriteLine(registration.Check.HTTP);
         // 注册服务
         consulClient.Agent.ServiceRegister(registration).Wait();
         // 应用程序终止时，注销服务
